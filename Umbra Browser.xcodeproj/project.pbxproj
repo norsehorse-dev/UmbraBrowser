@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5651D5A52F7EFBEE00FA9603 /* UmbraTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5912F7EFBEE00FA9603 /* UmbraTheme.swift */; };
+		5651D5A62F7EFBEE00FA9603 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5812F7EFBEE00FA9603 /* Color+Hex.swift */; };
+		5651D5A72F7EFBEE00FA9603 /* HTTPWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D59A2F7EFBEE00FA9603 /* HTTPWarningView.swift */; };
+		5651D5A82F7EFBEE00FA9603 /* View+Umbra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5832F7EFBEE00FA9603 /* View+Umbra.swift */; };
+		5651D5A92F7EFBEE00FA9603 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5972F7EFBEE00FA9603 /* BookmarksView.swift */; };
+		5651D5AB2F7EFBEE00FA9603 /* SSLCertificateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D58D2F7EFBEE00FA9603 /* SSLCertificateInfo.swift */; };
+		5651D5AC2F7EFBEE00FA9603 /* WhitelistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5A12F7EFBEE00FA9603 /* WhitelistView.swift */; };
+		5651D5AD2F7EFBEE00FA9603 /* URL+Umbra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5822F7EFBEE00FA9603 /* URL+Umbra.swift */; };
+		5651D5AE2F7EFBEE00FA9603 /* WhitelistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D58F2F7EFBEE00FA9603 /* WhitelistService.swift */; };
+		5651D5AF2F7EFBEE00FA9603 /* DefaultBrowserPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5992F7EFBEE00FA9603 /* DefaultBrowserPromptView.swift */; };
+		5651D5B02F7EFBEE00FA9603 /* SSLCertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D59F2F7EFBEE00FA9603 /* SSLCertificateView.swift */; };
+		5651D5B12F7EFBEE00FA9603 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5852F7EFBEE00FA9603 /* Bookmark.swift */; };
+		5651D5B32F7EFBEE00FA9603 /* NewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D59C2F7EFBEE00FA9603 /* NewTabView.swift */; };
+		5651D5B92F7EFBEE00FA9603 /* MainBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D59B2F7EFBEE00FA9603 /* MainBrowserView.swift */; };
+		5651D5BA2F7EFBEE00FA9603 /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5872F7EFBEE00FA9603 /* SearchEngine.swift */; };
+		5651D5BC2F7EFBEE00FA9603 /* BookmarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D58A2F7EFBEE00FA9603 /* BookmarkService.swift */; };
+		5651D5BD2F7EFBEE00FA9603 /* QuickAccessTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5862F7EFBEE00FA9603 /* QuickAccessTile.swift */; };
+		5651D5BE2F7EFBEE00FA9603 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D59D2F7EFBEE00FA9603 /* OnboardingView.swift */; };
+		5651D5BF2F7EFBEE00FA9603 /* BlockBreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5962F7EFBEE00FA9603 /* BlockBreakdownView.swift */; };
+		5651D5C02F7EFBEE00FA9603 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D58C2F7EFBEE00FA9603 /* SettingsService.swift */; };
+		5651D5C42F7EFC3900FA9603 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5C32F7EFC3900FA9603 /* StoreManager.swift */; };
+		5651D5C62F7EFD7000FA9603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5651D5C52F7EFD7000FA9603 /* Assets.xcassets */; };
+		5651D5C82F7EFF9700FA9603 /* ProFeatureGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D5C72F7EFF9700FA9603 /* ProFeatureGateView.swift */; };
+		5651D76D2F7F75A500FA9603 /* BrowserTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D76C2F7F75A500FA9603 /* BrowserTab.swift */; };
+		5651D7732F7F75C200FA9603 /* BlocklistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D76E2F7F75C200FA9603 /* BlocklistService.swift */; };
+		5651D7742F7F75C200FA9603 /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7722F7F75C200FA9603 /* TabManager.swift */; };
+		5651D7752F7F75C200FA9603 /* HistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D76F2F7F75C200FA9603 /* HistoryService.swift */; };
+		5651D7762F7F75C200FA9603 /* ReaderModeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7702F7F75C200FA9603 /* ReaderModeService.swift */; };
+		5651D7772F7F75C200FA9603 /* SessionRestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7712F7F75C200FA9603 /* SessionRestoreService.swift */; };
+		5651D77C2F7F75FA00FA9603 /* BrowserWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7782F7F75FA00FA9603 /* BrowserWebView.swift */; };
+		5651D77E2F7F75FA00FA9603 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D77A2F7F75FA00FA9603 /* PaywallView.swift */; };
+		5651D77F2F7F75FA00FA9603 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7792F7F75FA00FA9603 /* HistoryView.swift */; };
+		5651D7822F7FF57900FA9603 /* BottomToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7812F7FF57900FA9603 /* BottomToolbarView.swift */; };
+		5651D7832F7FF57900FA9603 /* AddressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7802F7FF57900FA9603 /* AddressBarView.swift */; };
+		5651D7862F7FF58200FA9603 /* CommandPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7842F7FF58200FA9603 /* CommandPaletteView.swift */; };
+		5651D7872F7FF58200FA9603 /* TabSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7852F7FF58200FA9603 /* TabSwitcherView.swift */; };
+		5651D7892F7FF68C00FA9603 /* UmbraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D7882F7FF68C00FA9603 /* UmbraApp.swift */; };
+		5651D78B2F7FF69300FA9603 /* UserscriptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D78A2F7FF69300FA9603 /* UserscriptService.swift */; };
+		5651D78E2F7FF6AC00FA9603 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D78C2F7FF6AC00FA9603 /* SettingsView.swift */; };
+		5651D78F2F7FF6AC00FA9603 /* UserscriptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651D78D2F7FF6AC00FA9603 /* UserscriptsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56D6CB222F7CF00D008C989C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D6CB0A2F7CF00C008C989C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D6CB112F7CF00C008C989C;
+			remoteInfo = "Umbra Browser";
+		};
+		56D6CB2C2F7CF00D008C989C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D6CB0A2F7CF00C008C989C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D6CB112F7CF00C008C989C;
+			remoteInfo = "Umbra Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5651D5812F7EFBEE00FA9603 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		5651D5822F7EFBEE00FA9603 /* URL+Umbra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Umbra.swift"; sourceTree = "<group>"; };
+		5651D5832F7EFBEE00FA9603 /* View+Umbra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Umbra.swift"; sourceTree = "<group>"; };
+		5651D5852F7EFBEE00FA9603 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		5651D5862F7EFBEE00FA9603 /* QuickAccessTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAccessTile.swift; sourceTree = "<group>"; };
+		5651D5872F7EFBEE00FA9603 /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		5651D58A2F7EFBEE00FA9603 /* BookmarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkService.swift; sourceTree = "<group>"; };
+		5651D58C2F7EFBEE00FA9603 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		5651D58D2F7EFBEE00FA9603 /* SSLCertificateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCertificateInfo.swift; sourceTree = "<group>"; };
+		5651D58F2F7EFBEE00FA9603 /* WhitelistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitelistService.swift; sourceTree = "<group>"; };
+		5651D5912F7EFBEE00FA9603 /* UmbraTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmbraTheme.swift; sourceTree = "<group>"; };
+		5651D5962F7EFBEE00FA9603 /* BlockBreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockBreakdownView.swift; sourceTree = "<group>"; };
+		5651D5972F7EFBEE00FA9603 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		5651D5992F7EFBEE00FA9603 /* DefaultBrowserPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultBrowserPromptView.swift; sourceTree = "<group>"; };
+		5651D59A2F7EFBEE00FA9603 /* HTTPWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPWarningView.swift; sourceTree = "<group>"; };
+		5651D59B2F7EFBEE00FA9603 /* MainBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBrowserView.swift; sourceTree = "<group>"; };
+		5651D59C2F7EFBEE00FA9603 /* NewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTabView.swift; sourceTree = "<group>"; };
+		5651D59D2F7EFBEE00FA9603 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5651D59F2F7EFBEE00FA9603 /* SSLCertificateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLCertificateView.swift; sourceTree = "<group>"; };
+		5651D5A12F7EFBEE00FA9603 /* WhitelistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitelistView.swift; sourceTree = "<group>"; };
+		5651D5C32F7EFC3900FA9603 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		5651D5C52F7EFD7000FA9603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5651D5C72F7EFF9700FA9603 /* ProFeatureGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProFeatureGateView.swift; sourceTree = "<group>"; };
+		5651D76C2F7F75A500FA9603 /* BrowserTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserTab.swift; sourceTree = "<group>"; };
+		5651D76E2F7F75C200FA9603 /* BlocklistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocklistService.swift; sourceTree = "<group>"; };
+		5651D76F2F7F75C200FA9603 /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
+		5651D7702F7F75C200FA9603 /* ReaderModeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderModeService.swift; sourceTree = "<group>"; };
+		5651D7712F7F75C200FA9603 /* SessionRestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRestoreService.swift; sourceTree = "<group>"; };
+		5651D7722F7F75C200FA9603 /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
+		5651D7782F7F75FA00FA9603 /* BrowserWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserWebView.swift; sourceTree = "<group>"; };
+		5651D7792F7F75FA00FA9603 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		5651D77A2F7F75FA00FA9603 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		5651D7802F7FF57900FA9603 /* AddressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBarView.swift; sourceTree = "<group>"; };
+		5651D7812F7FF57900FA9603 /* BottomToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbarView.swift; sourceTree = "<group>"; };
+		5651D7842F7FF58200FA9603 /* CommandPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPaletteView.swift; sourceTree = "<group>"; };
+		5651D7852F7FF58200FA9603 /* TabSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSwitcherView.swift; sourceTree = "<group>"; };
+		5651D7882F7FF68C00FA9603 /* UmbraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmbraApp.swift; sourceTree = "<group>"; };
+		5651D78A2F7FF69300FA9603 /* UserscriptService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserscriptService.swift; sourceTree = "<group>"; };
+		5651D78C2F7FF6AC00FA9603 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5651D78D2F7FF6AC00FA9603 /* UserscriptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserscriptsView.swift; sourceTree = "<group>"; };
+		56D6CBE32F7D20F7008C989C /* Umbra Eclipse.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Umbra Eclipse.storekit"; sourceTree = "<group>"; };
+		56D6CC032F7EF682008C989C /* Umbra Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Umbra Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D6CC042F7EF682008C989C /* Umbra BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Umbra BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D6CC052F7EF682008C989C /* Umbra BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Umbra BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		56D6CB242F7CF00D008C989C /* Umbra BrowserTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Umbra BrowserTests";
+			sourceTree = "<group>";
+		};
+		56D6CB2E2F7CF00D008C989C /* Umbra BrowserUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Umbra BrowserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D6CB0F2F7CF00C008C989C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D6CB1E2F7CF00D008C989C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D6CB282F7CF00D008C989C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5651D57D2F7EFBEE00FA9603 /* Components,ViewModels,Services,Extensions,Theme,Resources} */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Components,ViewModels,Services,Extensions,Theme,Resources}";
+			sourceTree = "<group>";
+		};
+		5651D57E2F7EFBEE00FA9603 /* {App,Models,Views,Views */ = {
+			isa = PBXGroup;
+			children = (
+				5651D57D2F7EFBEE00FA9603 /* Components,ViewModels,Services,Extensions,Theme,Resources} */,
+			);
+			path = "{App,Models,Views,Views";
+			sourceTree = "<group>";
+		};
+		5651D5802F7EFBEE00FA9603 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5651D7882F7FF68C00FA9603 /* UmbraApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5651D5842F7EFBEE00FA9603 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5651D5812F7EFBEE00FA9603 /* Color+Hex.swift */,
+				5651D5822F7EFBEE00FA9603 /* URL+Umbra.swift */,
+				5651D5832F7EFBEE00FA9603 /* View+Umbra.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5651D5882F7EFBEE00FA9603 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5651D5852F7EFBEE00FA9603 /* Bookmark.swift */,
+				5651D5862F7EFBEE00FA9603 /* QuickAccessTile.swift */,
+				5651D5872F7EFBEE00FA9603 /* SearchEngine.swift */,
+				5651D76C2F7F75A500FA9603 /* BrowserTab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5651D5902F7EFBEE00FA9603 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5651D58A2F7EFBEE00FA9603 /* BookmarkService.swift */,
+				5651D58C2F7EFBEE00FA9603 /* SettingsService.swift */,
+				5651D58D2F7EFBEE00FA9603 /* SSLCertificateInfo.swift */,
+				5651D58F2F7EFBEE00FA9603 /* WhitelistService.swift */,
+				5651D5C32F7EFC3900FA9603 /* StoreManager.swift */,
+				5651D76E2F7F75C200FA9603 /* BlocklistService.swift */,
+				5651D76F2F7F75C200FA9603 /* HistoryService.swift */,
+				5651D7702F7F75C200FA9603 /* ReaderModeService.swift */,
+				5651D7712F7F75C200FA9603 /* SessionRestoreService.swift */,
+				5651D7722F7F75C200FA9603 /* TabManager.swift */,
+				5651D78A2F7FF69300FA9603 /* UserscriptService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5651D5922F7EFBEE00FA9603 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				5651D5912F7EFBEE00FA9603 /* UmbraTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		5651D5952F7EFBEE00FA9603 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5651D7802F7FF57900FA9603 /* AddressBarView.swift */,
+				5651D7812F7FF57900FA9603 /* BottomToolbarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5651D5A22F7EFBEE00FA9603 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5651D5952F7EFBEE00FA9603 /* Components */,
+				5651D5962F7EFBEE00FA9603 /* BlockBreakdownView.swift */,
+				5651D5972F7EFBEE00FA9603 /* BookmarksView.swift */,
+				5651D5992F7EFBEE00FA9603 /* DefaultBrowserPromptView.swift */,
+				5651D59A2F7EFBEE00FA9603 /* HTTPWarningView.swift */,
+				5651D59B2F7EFBEE00FA9603 /* MainBrowserView.swift */,
+				5651D59C2F7EFBEE00FA9603 /* NewTabView.swift */,
+				5651D59D2F7EFBEE00FA9603 /* OnboardingView.swift */,
+				5651D59F2F7EFBEE00FA9603 /* SSLCertificateView.swift */,
+				5651D5A12F7EFBEE00FA9603 /* WhitelistView.swift */,
+				5651D5C52F7EFD7000FA9603 /* Assets.xcassets */,
+				5651D5C72F7EFF9700FA9603 /* ProFeatureGateView.swift */,
+				5651D7782F7F75FA00FA9603 /* BrowserWebView.swift */,
+				5651D7792F7F75FA00FA9603 /* HistoryView.swift */,
+				5651D77A2F7F75FA00FA9603 /* PaywallView.swift */,
+				5651D7842F7FF58200FA9603 /* CommandPaletteView.swift */,
+				5651D7852F7FF58200FA9603 /* TabSwitcherView.swift */,
+				5651D78C2F7FF6AC00FA9603 /* SettingsView.swift */,
+				5651D78D2F7FF6AC00FA9603 /* UserscriptsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5651D5A32F7EFBEE00FA9603 /* Umbra */ = {
+			isa = PBXGroup;
+			children = (
+				5651D57E2F7EFBEE00FA9603 /* {App,Models,Views,Views */,
+				5651D5802F7EFBEE00FA9603 /* App */,
+				5651D5842F7EFBEE00FA9603 /* Extensions */,
+				5651D5882F7EFBEE00FA9603 /* Models */,
+				5651D5902F7EFBEE00FA9603 /* Services */,
+				5651D5922F7EFBEE00FA9603 /* Theme */,
+				5651D5A22F7EFBEE00FA9603 /* Views */,
+			);
+			path = Umbra;
+			sourceTree = "<group>";
+		};
+		56D6CB092F7CF00C008C989C = {
+			isa = PBXGroup;
+			children = (
+				56D6CBE32F7D20F7008C989C /* Umbra Eclipse.storekit */,
+				56D6CB242F7CF00D008C989C /* Umbra BrowserTests */,
+				56D6CB2E2F7CF00D008C989C /* Umbra BrowserUITests */,
+				56D6CC032F7EF682008C989C /* Umbra Browser.app */,
+				56D6CC042F7EF682008C989C /* Umbra BrowserTests.xctest */,
+				56D6CC052F7EF682008C989C /* Umbra BrowserUITests.xctest */,
+				5651D5A32F7EFBEE00FA9603 /* Umbra */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D6CB112F7CF00C008C989C /* Umbra Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D6CB352F7CF00D008C989C /* Build configuration list for PBXNativeTarget "Umbra Browser" */;
+			buildPhases = (
+				56D6CB0E2F7CF00C008C989C /* Sources */,
+				56D6CB0F2F7CF00C008C989C /* Frameworks */,
+				56D6CB102F7CF00C008C989C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Umbra Browser";
+			packageProductDependencies = (
+			);
+			productName = "Umbra Browser";
+			productReference = 56D6CC032F7EF682008C989C /* Umbra Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56D6CB202F7CF00D008C989C /* Umbra BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D6CB382F7CF00D008C989C /* Build configuration list for PBXNativeTarget "Umbra BrowserTests" */;
+			buildPhases = (
+				56D6CB1D2F7CF00D008C989C /* Sources */,
+				56D6CB1E2F7CF00D008C989C /* Frameworks */,
+				56D6CB1F2F7CF00D008C989C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D6CB232F7CF00D008C989C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				56D6CB242F7CF00D008C989C /* Umbra BrowserTests */,
+			);
+			name = "Umbra BrowserTests";
+			packageProductDependencies = (
+			);
+			productName = "Umbra BrowserTests";
+			productReference = 56D6CC042F7EF682008C989C /* Umbra BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56D6CB2A2F7CF00D008C989C /* Umbra BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D6CB3B2F7CF00D008C989C /* Build configuration list for PBXNativeTarget "Umbra BrowserUITests" */;
+			buildPhases = (
+				56D6CB272F7CF00D008C989C /* Sources */,
+				56D6CB282F7CF00D008C989C /* Frameworks */,
+				56D6CB292F7CF00D008C989C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D6CB2D2F7CF00D008C989C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				56D6CB2E2F7CF00D008C989C /* Umbra BrowserUITests */,
+			);
+			name = "Umbra BrowserUITests";
+			packageProductDependencies = (
+			);
+			productName = "Umbra BrowserUITests";
+			productReference = 56D6CC052F7EF682008C989C /* Umbra BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D6CB0A2F7CF00C008C989C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					56D6CB112F7CF00C008C989C = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					56D6CB202F7CF00D008C989C = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 56D6CB112F7CF00C008C989C;
+					};
+					56D6CB2A2F7CF00D008C989C = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 56D6CB112F7CF00C008C989C;
+					};
+				};
+			};
+			buildConfigurationList = 56D6CB0D2F7CF00C008C989C /* Build configuration list for PBXProject "Umbra Browser" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D6CB092F7CF00C008C989C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 56D6CB092F7CF00C008C989C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D6CB112F7CF00C008C989C /* Umbra Browser */,
+				56D6CB202F7CF00D008C989C /* Umbra BrowserTests */,
+				56D6CB2A2F7CF00D008C989C /* Umbra BrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D6CB102F7CF00C008C989C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5651D5C62F7EFD7000FA9603 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D6CB1F2F7CF00D008C989C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D6CB292F7CF00D008C989C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D6CB0E2F7CF00C008C989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5651D5A52F7EFBEE00FA9603 /* UmbraTheme.swift in Sources */,
+				5651D5A62F7EFBEE00FA9603 /* Color+Hex.swift in Sources */,
+				5651D5A72F7EFBEE00FA9603 /* HTTPWarningView.swift in Sources */,
+				5651D5A82F7EFBEE00FA9603 /* View+Umbra.swift in Sources */,
+				5651D76D2F7F75A500FA9603 /* BrowserTab.swift in Sources */,
+				5651D5A92F7EFBEE00FA9603 /* BookmarksView.swift in Sources */,
+				5651D5AB2F7EFBEE00FA9603 /* SSLCertificateInfo.swift in Sources */,
+				5651D5AC2F7EFBEE00FA9603 /* WhitelistView.swift in Sources */,
+				5651D5AD2F7EFBEE00FA9603 /* URL+Umbra.swift in Sources */,
+				5651D5AE2F7EFBEE00FA9603 /* WhitelistService.swift in Sources */,
+				5651D5C82F7EFF9700FA9603 /* ProFeatureGateView.swift in Sources */,
+				5651D5AF2F7EFBEE00FA9603 /* DefaultBrowserPromptView.swift in Sources */,
+				5651D5C42F7EFC3900FA9603 /* StoreManager.swift in Sources */,
+				5651D5B02F7EFBEE00FA9603 /* SSLCertificateView.swift in Sources */,
+				5651D5B12F7EFBEE00FA9603 /* Bookmark.swift in Sources */,
+				5651D5B32F7EFBEE00FA9603 /* NewTabView.swift in Sources */,
+				5651D5B92F7EFBEE00FA9603 /* MainBrowserView.swift in Sources */,
+				5651D78B2F7FF69300FA9603 /* UserscriptService.swift in Sources */,
+				5651D7822F7FF57900FA9603 /* BottomToolbarView.swift in Sources */,
+				5651D7832F7FF57900FA9603 /* AddressBarView.swift in Sources */,
+				5651D5BA2F7EFBEE00FA9603 /* SearchEngine.swift in Sources */,
+				5651D7892F7FF68C00FA9603 /* UmbraApp.swift in Sources */,
+				5651D5BC2F7EFBEE00FA9603 /* BookmarkService.swift in Sources */,
+				5651D5BD2F7EFBEE00FA9603 /* QuickAccessTile.swift in Sources */,
+				5651D7862F7FF58200FA9603 /* CommandPaletteView.swift in Sources */,
+				5651D7872F7FF58200FA9603 /* TabSwitcherView.swift in Sources */,
+				5651D7732F7F75C200FA9603 /* BlocklistService.swift in Sources */,
+				5651D7742F7F75C200FA9603 /* TabManager.swift in Sources */,
+				5651D7752F7F75C200FA9603 /* HistoryService.swift in Sources */,
+				5651D78E2F7FF6AC00FA9603 /* SettingsView.swift in Sources */,
+				5651D78F2F7FF6AC00FA9603 /* UserscriptsView.swift in Sources */,
+				5651D7762F7F75C200FA9603 /* ReaderModeService.swift in Sources */,
+				5651D7772F7F75C200FA9603 /* SessionRestoreService.swift in Sources */,
+				5651D5BE2F7EFBEE00FA9603 /* OnboardingView.swift in Sources */,
+				5651D5BF2F7EFBEE00FA9603 /* BlockBreakdownView.swift in Sources */,
+				5651D5C02F7EFBEE00FA9603 /* SettingsService.swift in Sources */,
+				5651D77C2F7F75FA00FA9603 /* BrowserWebView.swift in Sources */,
+				5651D77E2F7F75FA00FA9603 /* PaywallView.swift in Sources */,
+				5651D77F2F7F75FA00FA9603 /* HistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D6CB1D2F7CF00D008C989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D6CB272F7CF00D008C989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56D6CB232F7CF00D008C989C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D6CB112F7CF00C008C989C /* Umbra Browser */;
+			targetProxy = 56D6CB222F7CF00D008C989C /* PBXContainerItemProxy */;
+		};
+		56D6CB2D2F7CF00D008C989C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D6CB112F7CF00C008C989C /* Umbra Browser */;
+			targetProxy = 56D6CB2C2F7CF00D008C989C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56D6CB332F7CF00D008C989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56D6CB342F7CF00D008C989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D6CB362F7CF00D008C989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umbrabrowser.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		56D6CB372F7CF00D008C989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umbrabrowser.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		56D6CB392F7CF00D008C989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Umbra-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umbra Browser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Umbra Browser";
+			};
+			name = Debug;
+		};
+		56D6CB3A2F7CF00D008C989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Umbra-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umbra Browser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Umbra Browser";
+			};
+			name = Release;
+		};
+		56D6CB3C2F7CF00D008C989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Umbra-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Umbra Browser";
+			};
+			name = Debug;
+		};
+		56D6CB3D2F7CF00D008C989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Umbra-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Umbra Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D6CB0D2F7CF00C008C989C /* Build configuration list for PBXProject "Umbra Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D6CB332F7CF00D008C989C /* Debug */,
+				56D6CB342F7CF00D008C989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D6CB352F7CF00D008C989C /* Build configuration list for PBXNativeTarget "Umbra Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D6CB362F7CF00D008C989C /* Debug */,
+				56D6CB372F7CF00D008C989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D6CB382F7CF00D008C989C /* Build configuration list for PBXNativeTarget "Umbra BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D6CB392F7CF00D008C989C /* Debug */,
+				56D6CB3A2F7CF00D008C989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D6CB3B2F7CF00D008C989C /* Build configuration list for PBXNativeTarget "Umbra BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D6CB3C2F7CF00D008C989C /* Debug */,
+				56D6CB3D2F7CF00D008C989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D6CB0A2F7CF00C008C989C /* Project object */;
+}

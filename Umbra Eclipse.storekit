@@ -1,0 +1,121 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "8E43EF77",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "59.99",
+      "familyShareable" : false,
+      "internalID" : "",
+      "localizations" : [
+        {
+          "description" : "All Pro features, forever. One-time purchase.",
+          "displayName" : "Eclipse Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.umbra.browser.eclipse.lifetime",
+      "referenceName" : "Eclipse Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_developerTeamID" : "",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 796729594.26043904,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "",
+      "localizations" : [
+
+      ],
+      "name" : "Eclipse",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Custom DNS, advanced blocklists, and priority support.",
+              "displayName" : "Eclipse Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.umbra.browser.eclipse.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Eclipse Monthly",
+          "subscriptionGroupID" : "",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "All Eclipse features at a discounted annual rate.",
+              "displayName" : "Eclipse Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.umbra.browser.eclipse.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Eclipse Yearly",
+          "subscriptionGroupID" : "",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
